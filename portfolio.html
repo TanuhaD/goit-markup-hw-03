@@ -20,29 +20,31 @@
   <body>
     <a href="" class="test-link"></a>
     <!-- Шапка -->
-    <header>
-        <div class="container">
-      <nav>
-        <a class="logo" href="./index.html"
-          >Web<span class="text-logo">Studio</span>
-        </a>
-        <ul>
-          <li><a class="nav-link" href="./index.html">Студія</a></li>
-          <li><a class=" nav-link current" href="./portfolio.html">Портфоліо</a></li>
-          <li><a class="nav-link" href="#">Контакти</a></li>
+    <header class="page-header">
+      <div class="container nav-header">
+          <nav class=" nav-header">            
+          <a class="logo" href="./index.html"
+            >Web<span class="text-logo">Studio</span>
+          </a>
+          <ul class="site-nav">
+            <li class="item"><a class="nav-link" href="./index.html">Студія</a></li>
+            <li class="item"><a class="nav-link current" href="./portfolio.html">Портфоліо</a></li>
+            <li class="item"><a class="nav-link" href="#">Контакти</a></li>
+          </ul>
+        </nav>
+          
+              <ul class="auth-nav">
+          <li class="item">
+            <a class="test-link" href="mailto:info@devstudio.com">
+              info@devstudio.com</a
+            >
+          </li>
+          <li class="item">
+            <a class="test-link" href="tel:+380961111111"> +38 096 111 11 11</a>
+          </li>
         </ul>
-      </nav>
-      <ul>
-        <li>
-          <a class="test-link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="test-link" href="tel:+380961111111">+38 096 111 11 11</a>
-        </li>
-      </ul>
-    </div>
+      
+            </div>
     </header>
     <!-- main -->
     <main>
@@ -50,18 +52,17 @@
       <section class="section">
         <div class="container">
         <h1 class="visually-hidden">Наши роботи</h1>
-        <ul>
-          <li><button class="button" type="button">Усі</button></li>
-          <li><button class="button" type="button">Веб-сайти</button></li>
-          <li><button class="button" type="button">Додатки</button></li>
-          <li><button class="button" type="button">Дизайн</button></li>
-          <li><button class="button" type="button">Маркетинг</button></li>
+        <ul class="filter-list">
+          <li class="filter-item"><button class="button" type="button">Усі</button></li>
+          <li class="filter-item"><button class="button" type="button">Веб-сайти</button></li>
+          <li class="filter-item"><button class="button" type="button">Додатки</button></li>
+          <li class="filter-item"><button class="button" type="button">Дизайн</button></li>
+          <li class="filter-item"><button class="button" type="button">Маркетинг</button></li>
         </ul>
-      </div>
-</section>
+      
+
         <!-- projekt -->
-        <section class="section" >
-          <div class="container">
+       
         <ul class="projekt">
           <li class="projekt-list">
             <img src="./img/img8.jpg" alt="Веб-сайт Технокряк" />
@@ -116,20 +117,22 @@
     <!-- footer -->
     <footer class="footer-style">
         <div class="container">
-      <a class="logo" href="./portfolio.html">
+      <ul class="footer-address">
+       <li class="logo-style"><a class="logo" href="./portfolio.html">
         Web <span class="logo-footer">Studio</span></a
-      >
-      <address style="font-style: normal">
-        <ul>
-          <li>
+      ></li>
+    </ul>
+      <address class="footer-address">
+        <ul  class="footer-list">
+          <li class="footer-item">
             <a class="address" href="#">м. Київ, пр-т Лесі Українки, 26</a>
           </li>
-          <li>
+          <li class="footer-item">
             <a class="link" href="mailto:info@devstudio.com">
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="footer-item">
             <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
