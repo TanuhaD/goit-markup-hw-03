@@ -37,7 +37,8 @@ p,
 div,
 h1,
 h2,
-h3 {
+h3
+ {
   margin: 0;
 }
 
@@ -58,11 +59,9 @@ h3 {
   padding-bottom: 94px;
 }
 
-.section.no-padding {
+ .no-padding{
   padding-top: 0;
-  padding-bottom: 0;
 }
-
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -158,6 +157,7 @@ img {
   margin-bottom: 30px;
 }
 .portfolio .projekt .wrapper {
+  padding-top: 20px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
@@ -188,6 +188,7 @@ img {
   text-align: center;
   background-color: #2f303a;
   width: 1600 px;
+  height: 600 px;
 }
 
 .hero-title {
@@ -219,9 +220,10 @@ img {
 }
 /* button */
 .button {
+  background-color: #F5F4FA;
   display: inline-block;
-  border-radius: 6px;
-  margin-bottom: 34px;
+  border-radius: 4px;
+  margin-bottom: 50px;
   display: inline-block;
   cursor: pointer;
   font-family: inherit;
@@ -231,11 +233,12 @@ img {
   font-size: 16px;
   line-height: 1.8em;
   text-align: center;
+
 }
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
-  color: var(--primary-bg-color);
+  color: var(--title-text-color);
 }
 /* studio */
 .button-studio {
@@ -292,7 +295,7 @@ img {
   line-height: 1.8;
   color: var(--primary-text-color);
 }
-/* work */
+/* what we do */
 
 .section-title {
   margin-top: 0;
@@ -300,7 +303,10 @@ img {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
+   color: var(--title-text-color); 
   color: var(--title-text-color);
+   color: var(--title-text-color); 
+  
 }
 
 .work-list {
@@ -335,9 +341,15 @@ img {
   display: flex;
 }
 
+  .cards {
+padding-top:30px;
+}
+.cards .title-name{
+  padding-bottom: 10px;
+}
+
 .title-name {
-  margin-bottom: 10 px;
-  font-weight: 500;
+    font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -345,7 +357,9 @@ img {
 }
 
 .job-title {
+  
   margin-top: 0;
+  padding-bottom: 0;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
