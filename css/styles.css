@@ -37,8 +37,7 @@ p,
 div,
 h1,
 h2,
-h3
- {
+h3 {
   margin: 0;
 }
 
@@ -59,7 +58,7 @@ h3
   padding-bottom: 94px;
 }
 
- .no-padding{
+.no-padding {
   padding-top: 0;
 }
 .container {
@@ -157,7 +156,9 @@ img {
   margin-bottom: 30px;
 }
 .portfolio .projekt .wrapper {
+  padding-bottom: 20px;
   padding-top: 20px;
+  padding-left: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
@@ -187,8 +188,8 @@ img {
 .hero {
   text-align: center;
   background-color: #2f303a;
-  width: 1600 px;
-  height: 600 px;
+  width: 1600px;
+  height: 600px;
 }
 
 .hero-title {
@@ -220,25 +221,30 @@ img {
 }
 /* button */
 .button {
-  background-color: #F5F4FA;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
   display: inline-block;
+  border: none;
+  background-color: #f5f4fa;
+  text-align: center;
   border-radius: 4px;
   margin-bottom: 50px;
-  display: inline-block;
   cursor: pointer;
   font-family: inherit;
-  text-align: center;
+  line-height: 1.6em;
   letter-spacing: 0.03em;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.8em;
-  text-align: center;
-
+  color: var(--title-text-color);
 }
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
-  color: var(--title-text-color);
+  color: var(--primary-bg-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /* studio */
 .button-studio {
@@ -303,10 +309,9 @@ img {
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
-   color: var(--title-text-color); 
   color: var(--title-text-color);
-   color: var(--title-text-color); 
-  
+  color: var(--title-text-color);
+  color: var(--title-text-color);
 }
 
 .work-list {
@@ -341,15 +346,15 @@ img {
   display: flex;
 }
 
-  .cards {
-padding-top:30px;
+.cards {
+  padding-top: 30px;
 }
-.cards .title-name{
+.cards .title-name {
   padding-bottom: 10px;
 }
 
 .title-name {
-    font-weight: 500;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -357,7 +362,6 @@ padding-top:30px;
 }
 
 .job-title {
-  
   margin-top: 0;
   padding-bottom: 0;
   font-size: 16px;
@@ -385,7 +389,7 @@ padding-top:30px;
 /* footer */
 .footer {
   background-color: #2f303a;
-  max-width: 1600 px;
+  max-width: 1600px;
 }
 .footer .container {
   padding-top: 60px;
