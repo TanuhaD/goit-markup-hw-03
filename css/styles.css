@@ -159,6 +159,7 @@ img {
   padding-bottom: 20px;
   padding-top: 20px;
   padding-left: 24px;
+  padding-right: 24px;
   border: 1px solid #eeeeee;
   border-top: none;
 }
@@ -188,8 +189,7 @@ img {
 .hero {
   text-align: center;
   background-color: #2f303a;
-  width: 1600px;
-  height: 600px;
+    height: 600px;
 }
 
 .hero-title {
@@ -389,7 +389,7 @@ img {
 /* footer */
 .footer {
   background-color: #2f303a;
-  max-width: 1600px;
+  
 }
 .footer .container {
   padding-top: 60px;
