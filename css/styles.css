@@ -189,7 +189,6 @@ img {
 .hero {
   text-align: center;
   background-color: #2f303a;
-    height: 600px;
 }
 
 .hero-title {
@@ -248,6 +247,10 @@ img {
 }
 /* studio */
 .button-studio {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
   cursor: pointer;
   font-family: inherit;
   background: var(--accent-color);
@@ -256,10 +259,6 @@ img {
 }
 
 .button-text {
-  width: 152px;
-  height: 30px;
-  left: 730px;
-  top: 440px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -389,7 +388,6 @@ img {
 /* footer */
 .footer {
   background-color: #2f303a;
-  
 }
 .footer .container {
   padding-top: 60px;
